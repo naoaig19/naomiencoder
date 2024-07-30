@@ -1,0 +1,85 @@
+main {
+    color: rgb(210, 168, 250);
+    font-style: oblique
+}
+
+nav {
+    background-color: blueviolet;
+}
+
+il {
+    font-size: larger;
+}
+
+.Circulo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#carrusell {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-img {
+    height: 500px;
+    object-fit: cover;
+}
+
+
+#alineacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.nombre {
+    font-weight: bold;
+}
+
+.fecha {
+    color: #666;
+    font-size: 0.9em;
+}
+
+.texto {
+    margin-top: 10px;
+}
+
+.avatar {
+    width: 100px;
+    border-radius: 50px;
+}
+
+p {
+    font-size: medium;
+    font-style: italic;
+    color: black;
+}
+
+.titulo {
+    font-size: larger;
+    font-style: oblique;
+}
+
+.fotoservicio {
+    width: 60%;
+    height: 500px;
+}
+
+.informacion {
+    font: weight 20px;
+}
