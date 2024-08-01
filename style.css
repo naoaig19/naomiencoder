@@ -1,3 +1,10 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
 main {
     color: rgb(210, 168, 250);
     font-style: oblique
@@ -114,7 +121,7 @@ header nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Sección de Servicios */
+/*  Servicios */
 .services {
     padding: 20px 0;
     background: #f4f4f4;
@@ -148,7 +155,7 @@ li {
     color: rgb(210, 168, 250);
 }
 
-/* Sección de Contacto */
+/* Contacto */
 .contact {
     padding: 20px 0;
 }
@@ -191,4 +198,80 @@ button {
     border-radius: 4px;
     font-size: 16px;
     cursor: pointer;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.header h1 {
+    margin: 0;
+    color: #333;
+}
+
+.header p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.profile-picture {
+    flex: 1;
+}
+
+.profile-picture img {
+    max-width: 100%;
+    border-radius: 50%;
+    border: 3px solid #333;
+}
+
+.profile-info {
+    flex: 2;
+}
+
+.profile-info h2 {
+    margin-top: 0;
+    color: rgb(210, 168, 250);
+}
+
+.profile-info p {
+    color: #666;
+}
+
+.datos {
+    list-style-type: none;
+    padding: 0;
+}
+
+.datos li {
+    background: #eee;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    color: #333;
+}
+
+.contact-form {
+    margin-top: 20px;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.map {
+    margin-top: 20px;
 }
