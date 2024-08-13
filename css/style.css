@@ -1,0 +1,84 @@
+.gradient {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(297deg, rgb(2, 0, 36) 0%, rgb(254, 146, 255) 35%, rgb(0, 212, 255) 100%);
+}
+
+body {
+  font-family: arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body header h1 {
+  text-align: center;
+  color: rgb(210, 168, 250);
+}
+body header nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+body header nav ul li {
+  margin: 0 15px;
+}
+body header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main h1 {
+  color: rgb(210, 168, 250);
+  font-size: large;
+}
+main .container {
+  background-color: #fff;
+}
+main .Circulo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50px;
+}
+main #carrusell {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #carrusell .carousel-img {
+  height: 500px;
+  object-fit: cover;
+}
+main h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #alineacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #alineacion .nombre {
+  font-weight: bold;
+  color: black;
+}
+main #alineacion .fecha {
+  color: #666;
+  font-size: 0.9em;
+}
+main #alineacion .texto {
+  margin-top: 10px;
+}
+main #alineacion .avatar {
+  width: 100px;
+  border-radius: 50px;
+}
+main #alineacion p {
+  font-size: medium;
+  font-style: italic;
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */
