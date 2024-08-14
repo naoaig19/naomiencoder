@@ -12,6 +12,9 @@ body header h1 {
   text-align: center;
   color: rgb(210, 168, 250);
 }
+body header .bg-body-tertiary {
+  background-color: #fff;
+}
 body header nav ul {
   display: flex;
   justify-content: center;
@@ -19,6 +22,7 @@ body header nav ul {
 }
 body header nav ul li {
   margin: 0 15px;
+  font-style: arial, sans-serif;
 }
 body header nav ul li a {
   color: #fff;
@@ -29,9 +33,6 @@ body header nav ul li a {
 main h1 {
   color: rgb(210, 168, 250);
   font-size: large;
-}
-main .container {
-  background-color: #fff;
 }
 main .Circulo {
   width: 200px;
@@ -79,6 +80,97 @@ main #alineacion p {
   font-size: medium;
   font-style: italic;
   color: black;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  grid-template-columns: 1fr;
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.container .profile {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.container .profile-picture img {
+  flex: 1;
+}
+.container .profile-picture img {
+  max-width: 100%;
+  border-radius: 50%;
+  border: 3px solid #333;
+}
+.container .profile-info {
+  flex: 2;
+}
+.container .profile-info h2 {
+  margin-top: 0;
+  color: rgb(210, 168, 250);
+}
+.container .profile-info p {
+  color: #666;
+}
+.container form {
+  max-width: 600px;
+  margin: auto;
+}
+.container form .form-group {
+  margin-bottom: 15px;
+}
+.container form .form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+.container form .form-group input,
+.container form .form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.container form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.services {
+  padding: 20px 0;
+  background: #f4f4f4;
+}
+.services li {
+  color: #333;
+}
+.services h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: rgb(210, 168, 250);
+}
+.services h2 {
+  margin-bottom: 10px;
+  color: rgb(210, 168, 250);
+}
+.services .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+.services .service {
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 /*# sourceMappingURL=style.css.map */
