@@ -32,7 +32,7 @@ body header nav ul li a {
 
 main h1 {
   color: rgb(210, 168, 250);
-  font-size: large;
+  font-size: larger;
 }
 main .Circulo {
   width: 200px;
@@ -51,7 +51,7 @@ main #carrusell .carousel-img {
   height: 500px;
   object-fit: cover;
 }
-main h3 {
+main h2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -82,6 +82,10 @@ main #alineacion p {
   color: black;
 }
 
+.reserva h1 {
+  font-size: 40px;
+}
+
 .container {
   display: grid;
   grid-template-rows: auto 1fr;
@@ -107,6 +111,9 @@ main #alineacion p {
 }
 .container .profile-info {
   flex: 2;
+}
+.container .profile-info h1 {
+  font-size: 40px;
 }
 .container .profile-info h2 {
   margin-top: 0;
@@ -171,6 +178,20 @@ main #alineacion p {
   padding: 15px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h1 {
+  font-size: 40px;
+}
+.contact-info p {
+  font-weight: bold;
+}
+.contact-info a {
+  margin-bottom: 20px;
+  margin: auto;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */
